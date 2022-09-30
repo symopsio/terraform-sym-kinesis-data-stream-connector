@@ -1,5 +1,5 @@
 # Deprecation Warning
-This `symopsio/kinesis-data-stream-connector/sym` module is deprecated as of September 30, 2022. We recommend migrating to [`symopsio/kinesis-data-stream-connector/aws`](https://registry.terraform.io/modules/symopsio/kinesis-data-stream-connector/aws/latest). This can be done in place by replacing your `symopsio/kinesis-data-stream-connector/sym` module with `symopsio/kinesis-data-stream-connector/aws`.
+The `symopsio/kinesis-data-stream-connector/sym` module is deprecated as of September 30, 2022. Please migrate to [`symopsio/kinesis-data-stream-connector/aws`](https://registry.terraform.io/modules/symopsio/kinesis-data-stream-connector/aws/latest). This can be done in your module declarations by replacing the `symopsio/kinesis-data-stream-connector/sym` source argument with `symopsio/kinesis-data-stream-connector/aws`.
 
 ```
 module "kinesis_data_stream_connector" {

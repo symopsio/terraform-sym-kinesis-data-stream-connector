@@ -1,3 +1,6 @@
+# Deprecation Warning
+This `symopsio/kinesis-data-stream-connector/sym` module is deprecated and no longer maintained as of September 30, 2022. For Terraform Provider 4.x support, please migrate to [`symopsio/kinesis-data-stream-connector/aws`](https://registry.terraform.io/modules/symopsio/kinesis-data-stream-connector/aws/latest).
+
 # kinesis-data-stream-connector
 
 The `kinesis-data-stream-connector` module provisions a single Kinesis Data Stream which the Sym Runtime has permission to write log data to.
